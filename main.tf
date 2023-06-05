@@ -9,7 +9,7 @@ resource "aws_s3_bucket" "example" {
   }
 }
 
-variable "another_varialbe" {
+variable "var" {
   type = string
-  description = "test test"
+  description = "test1"
 }
